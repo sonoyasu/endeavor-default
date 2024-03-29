@@ -1,0 +1,25 @@
+        //////FUSIONSTART LogicABC
+        
+
+        //////Fused at 2024-03-22 17:06:56
+        //////FUSIONSTART LogicA
+        System.out.println("Hello Japan.");
+        //////FUSIONEND LogicA
+
+        //////Fused at 2024-03-22 17:07:28
+        //////FUSIONSTART LogicB
+        if(false) {
+            System.out.println("LogicB");
+        }
+        //////FUSIONEND LogicB
+
+        //////FUSIONSTART LogicC
+        System.out.println("LogicC");
+        System.out.println("LogicC");
+        System.out.println("LogicC");
+        System.out.println("LogicC");
+        System.out.println("LogicC");
+        System.out.println("LogicC");
+        //////FUSIONEND LogicC
+
+        //////FUSIONEND LogicABC

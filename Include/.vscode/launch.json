@@ -1,0 +1,61 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+       
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Clip LogicA",
+            "request": "launch",
+            "mainClass": "Clip",
+            "projectName": "Java_2eeca665",
+            "args":["Test.java", "LogicA", "ClippedLogicA.sos"]
+        },
+        {
+            "type": "java",
+            "name": "Clip LogicB",
+            "request": "launch",
+            "mainClass": "Clip",
+            "projectName": "Java_2eeca665",
+            "args":["Test.java", "LogicB", "ClippedLogicB.sos"]
+        },        
+        {
+            "type": "java",
+            "name": "Include LogicA",
+            "request": "launch",
+            "mainClass": "Include",
+            "projectName": "Java_2eeca665",
+            "args":["Test.java", "LogicA", "LogicA.sos", "Test.java"]
+        },
+        {
+            "type": "java",
+            "name": "Include LogicB",
+            "request": "launch",
+            "mainClass": "Include",
+            "projectName": "Java_2eeca665",
+            "args":["Test.java", "LogicB", "LogicB.sos", "Test.java"]
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_2eeca665"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_2eeca665"
+        }        
+    ]
+}

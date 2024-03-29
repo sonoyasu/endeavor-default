@@ -1,0 +1,3 @@
+#ifdef Define
+XXXXX
+#endif /* Define */

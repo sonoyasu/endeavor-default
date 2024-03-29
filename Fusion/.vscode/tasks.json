@@ -1,0 +1,55 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "label": "copy orig Test.java -> Test.java",
+            "type": "shell",
+            "command": "cp",
+			"args": [
+				"${workspaceFolder}/orig/Test.java",
+				"${workspaceFolder}/Test.java",
+			  ],
+        },
+        {
+            "label": "Fusion LogicA",
+            "type": "shell",
+            "command": "java",
+            "args":["Fusion", "Test.java", "LogicA", "LogicA.sos", "Test.java"]
+        },
+        {
+            "label": "Fusion LogicB",
+            "type": "shell",
+            "command": "java",
+            "args":["Fusion", "Test.java", "LogicB", "LogicB.sos", "Test.java"]
+        },
+
+        {
+            "label": "Clip LogicA",
+            "type": "shell",
+            "command": "java",
+            "args":["Clip", "Test.java", "LogicA", "ClippedLogicA.sos"]
+        },
+        {
+            "label": "Clip LogicB",
+            "type": "shell",
+            "command": "java",
+            "args":["Clip", "Test.java", "LogicB", "ClippedLogicB.sos"]
+        },			
+
+        {
+            "label": "Build Test",
+            "type": "shell",
+            "command": "javac",
+            "args":["Test.java"]
+        },
+		
+	
+        {
+            "label": "Run Test",
+            "type": "shell",
+            "command": "java",
+            "args":["Test"]
+        },
+		
+	]
+}

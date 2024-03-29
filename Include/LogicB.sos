@@ -1,0 +1,5 @@
+        //////FUSIONSTART LogicB
+        if(false) {
+            System.out.println("LogicB");
+        }
+        //////FUSIONEND LogicB

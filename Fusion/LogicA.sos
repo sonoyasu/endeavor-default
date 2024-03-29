@@ -1,0 +1,3 @@
+        //////FUSIONSTART LogicA
+        System.out.println("Hello Japan.");
+        //////FUSIONEND LogicA

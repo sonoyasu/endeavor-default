@@ -1,0 +1,3 @@
+        //////FUSIONSTART LogicA
+        System.out.println("Hello World.");
+        //////FUSIONEND LogicA
