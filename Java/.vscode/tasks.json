@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "label": "Build Test",
+            "type": "shell",
+            "command": "javac",
+            "args":["Test.java"]
+        },
+		
+	
+        {
+            "label": "Run Test",
+            "type": "shell",
+            "command": "java",
+            "args":["Test"]
+        },
+		
+	]
+}
