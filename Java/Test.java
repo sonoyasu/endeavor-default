@@ -1,3 +1,5 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 class Test {
     public static void main(String[] args)  {
@@ -5,7 +7,9 @@ class Test {
         System.out.println("標準Javaのテストです");
 
         // LogicA
-        System.out.println("これはCORP Aです");
+        var now = new Date();
+        System.out.println((new SimpleDateFormat("yyyy/MM/dd HH:mm:ss")).format(now));
+        System.out.println("Hello World.");
 
         // LogicB
         if(true) {
