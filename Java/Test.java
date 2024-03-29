@@ -5,7 +5,7 @@ class Test {
         System.out.println("標準Javaのテストです");
 
         // LogicA
-        System.out.println("Hello World.");
+        System.out.println("これはCORP Aです");
 
         // LogicB
         if(true) {
